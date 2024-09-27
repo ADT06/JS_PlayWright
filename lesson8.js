@@ -19,16 +19,20 @@ var helloThree = () =>{
 }
 helloThree()  
 
-//Function with arguments
-function printTheName(name, lastName){
-    console.log(name + ' '+ lastName) // code is not dependent on the hard coded data
+//Function with arguments, The values that you use inside of the parentheses , name and lastname,  of the function.
+//Call the parameters of the function and 
+
+function printTheName(name,lastName){
+console.log(name + ' '+ lastName) // code is not dependent on the hard coded data
 }
 printTheName('John', 'Pop')
+//the values that you pass into , like John and Pop , are the functions are the arguments of the functions 
+//that are passed into the function and used inside of the function.
 
 //function with return
 function multiplyByThree (number){
     var result = number * 3
-    return result
+    return result // to return the result
 }
 var myresult = multiplyByThree(9)
 console.log(myresult)
@@ -37,6 +41,6 @@ console.log(myresult)
 import {printAge} from '../JS_PlayWright/helpers/printHelper.js' //importing from printerHelper.js file
 printAge(5) //is called from this file lesson 8
 
-//import everything
+//import everything, form an other 
 import * as helper from '../JS_PlayWright/helpers/printHelper.js'
 helper.printAge (10)
