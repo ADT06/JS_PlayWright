@@ -55,3 +55,6 @@ Compare TypeScript and JavaScript, and understand the benefits and use cases of 
 
 ### Coding Exercise 1: JavaScript Practice Exercise
 Put your knowledge to the test with a hands-on coding exercise designed to reinforce the concepts you’ve learned in the course.
+
+Link to Udemy course:
+https://www.udemy.com/course/playwright-from-zero-to-hero
