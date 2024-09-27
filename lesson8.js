@@ -42,5 +42,8 @@ import {printAge} from '../JS_PlayWright/helpers/printHelper.js' //importing fro
 printAge(5) //is called from this file lesson 8
 
 //import everything, form an other 
-import * as helper from '../JS_PlayWright/helpers/printHelper.js'
+import * as helper from '../JS_PlayWright/helpers/printHelper.js' 
 helper.printAge (10)
+//you can import all the functions from the JavaScript using import start as provide the name of
+//the object 'helper', how you want to use this function, and then through the dot notation you call the function
+//inside of the file.
