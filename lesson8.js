@@ -32,3 +32,11 @@ function multiplyByThree (number){
 }
 var myresult = multiplyByThree(9)
 console.log(myresult)
+
+//importing function
+import {printAge} from '../JS_PlayWright/helpers/printHelper.js' //importing from printerHelper.js file
+printAge(5) //is called from this file lesson 8
+
+//import everything
+import * as helper from '../JS_PlayWright/helpers/printHelper.js'
+helper.printAge (10)
