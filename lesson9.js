@@ -10,7 +10,7 @@ const tanya = new Person('Tanya', 25);
 tanya.greet();       
 
 
-// Importing functions and class
+// Importing class and methodes
 //The first line imports two named functions, add and subtract, from the printHelper.js file located in the helpers directory.
 //The second line imports a default export, Person, from the same file.
 //console.log(add(2, 3)); calls the add function with arguments 2 and 3, and logs the result (5) to the console.
