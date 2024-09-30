@@ -14,4 +14,3 @@ console.log(subtract(5, 2)); // Output: 3
 const john = new Person('John', 25);
 john.greet(); // Output: Hello, my name is John and I am 25 years old.
 
- //instant of the class has been created here, var CustomerDetails is an object
